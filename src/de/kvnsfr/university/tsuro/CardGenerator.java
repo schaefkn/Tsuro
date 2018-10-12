@@ -35,7 +35,28 @@ public class CardGenerator {
 		for(int i = 1; i <= 7; i++) {
 			Card tmp = new Card();
 			tmp.connectNodesByIndex(0, i);
-			tmp.printCard();
+			cards.add(tmp);
+			cards.add(tmp);
 		}
+	}
+	
+	public int calculateUniqueCards() {
+		ArrayList<Card> cardsToRemoved = new ArrayList<>();
+		
+		for(int i = 0; i < cards.size(); i++) {
+			for(int y = 0; y < cards.size(); y++) {
+				Card card = cards.get(y);
+				Card compare = cards.get(i);
+				if(card.equalsAfterRotation(compare) && i != y) {
+					if(!cardsToRemoved.contains(card))
+						cardsToRemoved.add(card);
+				}
+			}
+		}
+		
+		for(Card remove: cardsToRemoved)
+			cards.remove(remove);
+		
+		return cards.size();
 	}
 }
