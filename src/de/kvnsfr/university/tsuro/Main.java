@@ -4,7 +4,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		CardGenerator gc = CardGenerator.getInstance();
-		gc.generateCards();
-		System.out.println("No. unquie cards: " + gc.calculateUniqueCards());
+		gc.readGeneratedCardsFile("C:\\Users\\KevinSchaefer\\University\\Java-Vorkurs\\Tsuro\\src\\GeneratedCards.txt");
+		System.out.println("No. unique cards: " + gc.calculateUniqueCards());
 	}
 }
