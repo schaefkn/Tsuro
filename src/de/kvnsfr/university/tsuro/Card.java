@@ -62,13 +62,10 @@ public class Card {
 	}
 	
 	public boolean containsEdge(Edge e) {
-		boolean contains = false;
-		
 		for(Edge edge: edges)
 			if(edge.equals(e))
-				contains = true;
-		
-		return contains;
+				return true;
+		return false;
 	}
 	
 	public boolean equals(Card c) {
