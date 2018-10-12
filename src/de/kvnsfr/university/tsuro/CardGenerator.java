@@ -60,7 +60,9 @@ public class CardGenerator {
 				Card card2 = cards.get(y);
 				
 				if(card1.equalsAfterRotation(card2) && i != y) {
-					System.out.println(i + "-" + y);
+					if(!cardsToRemoved.contains(card1) && !cardsToRemoved.contains(card2)) {
+						cardsToRemoved.add(card1);
+					}
 				}
 			}
 		}
