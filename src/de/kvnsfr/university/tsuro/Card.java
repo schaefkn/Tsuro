@@ -57,9 +57,11 @@ public class Card {
 	}
 	
 	public boolean containsEdge(Edge e) {
-		for(Edge edge: edges)
-			if(edge.equals(e))
+		for(Edge edge: edges) {
+			if(edge.equals(e)) {
 				return true;
+			}
+		}
 		return false;
 	}
 	
@@ -67,9 +69,11 @@ public class Card {
 		if(this.edges.size() != c.edges.size())
 			return false;
 					
-		for(Edge edge: edges)
-			if(!c.containsEdge(edge))
+		for(Edge edge: edges) {
+			if(!c.containsEdge(edge)) {
 				return false;
+			}
+		}
 
 		return true;
 	}
