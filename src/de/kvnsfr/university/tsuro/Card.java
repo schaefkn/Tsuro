@@ -21,11 +21,6 @@ public class Card {
 	public void connectNodes(Node origin, Node dest) {
 		if(origin.connectNode(dest) && !origin.equals(dest))
 			edges.add(origin.edge);
-		
-//		origin.connectNode(dest);
-//		
-//		if(!edges.contains(origin.edge))
-//			edges.add(origin.edge);
 	}
 	
 	public void connectNodesByIndex(int origin, int dest) {
