@@ -74,6 +74,9 @@ public class CardGenerator {
 					nodes.add(Integer.parseInt(singleInput));
 				}
 				
+				if(nodes.size() != 8)
+					continue;
+				
 				Card tmp = new Card();
 				tmp.connectNodesByIndex(nodes.get(0), nodes.get(1));
 				tmp.connectNodesByIndex(nodes.get(2), nodes.get(3));
