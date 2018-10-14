@@ -6,5 +6,5 @@ All possible 105 cards are generated before this program is run (generating star
 
 ### Contributors
 - [kvnsfr](https://www.github.com/kvnsfr)
-- [SimonEgger](https://www.github.com/SimonEgger)
+- [EggerSimon](https://www.github.com/EggerSimon)
 - [bieniajl](https://www.github.com/bieniajl)
