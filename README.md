@@ -5,6 +5,6 @@ This program calculates the count of unique cards which are possible in the game
 All possible 105 cards are generated before this program is run (generating starting cards will be implemented in the future) and loaded via the GeneratedCards.txt file.
 
 ### Contributors
-- [kvnsfr](https://www.github.com/kvnsfr)
+- [schaefkn](https://www.github.com/schaefkn)
 - [EggerSimon](https://www.github.com/EggerSimon)
 - [bieniajl](https://www.github.com/bieniajl)
