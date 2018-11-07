@@ -1,6 +1,9 @@
 # Tsuro
 ## Contributors
-- [schaefkn](https://www.github.com/schaefkn)
+[![schaefkn](https://avatars2.githubusercontent.com/u/44315988?s=70&v=3)](https://github.com/schaefkn) |
+--- |
+[schaefkn](https://github.com/schaefkn) |
+
 - [EggerSimon](https://www.github.com/EggerSimon)
 - [bieniajl](https://www.github.com/bieniajl)
 - [TVXtrem](https://github.com/TVXtrem)
