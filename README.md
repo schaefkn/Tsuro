@@ -1,4 +1,6 @@
 # Tsuro
+[![CodeFactor](https://www.codefactor.io/repository/github/schaefkn/tsuro/badge)](https://www.codefactor.io/repository/github/schaefkn/tsuro)
+
 ## Contributors
 |[![schaefkn](https://avatars2.githubusercontent.com/u/44315988?s=100&v=3)](https://github.com/schaefkn)|[![EggerSimon](https://avatars0.githubusercontent.com/u/43815332?s=100&v=3)](https://github.com/EggerSimon)||[![TVXtrem](https://avatars1.githubusercontent.com/u/5702543?s=100&v=3)](https://github.com/TVXtrem)|
 |---|---|---|---|
