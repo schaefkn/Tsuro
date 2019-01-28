@@ -3,7 +3,7 @@ package de.kvnsfr.university.tsuro;
 public class Node {
 	Position pos;
 	Edge edge;
-	boolean connected = false;
+	boolean connected;
 	
 	/**
 	 * Another constructor for class Node
@@ -12,6 +12,7 @@ public class Node {
 	public Node(Position pos) {
 		this.pos = pos;
 		this.edge = null;
+		this.connected = false;
 	}
 	
 	/**
